@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ChatBot with PHP</title>
-    <link rel="stylesheet" href="css/style.css">
+    <title>asesorIA</title>
+    <link rel="stylesheet" href="css/chat_style.css">
 </head>
 
 <body>
@@ -12,12 +12,12 @@
        
             <div class="chatbox">
                     <div class="header">
-                        <h4> <img src='img/perfil.jpg' class='imgRedonda'/> CoronaBot </h4>
+                        <h4> <img src='images/perfil.jpg' class='imgRedonda'/> asesorIA </h4>
                                     
                     </div>
                     
                         <div class="body" id="chatbody">
-                        <p class="alicia">Hola! soy CoronaBot, Estoy para responder preguntas relacionadas con coronavirus. Espero poder ayudarte.</p>
+                        <p class="alicia">Hola! soy asesorIA, Estoy para resolver preguntas relacionadas con la materia de Fracciones. Espero poder ayudarte. </p> 
                             <div class="scroller"></div>
                         </div>
 
@@ -31,17 +31,19 @@
                                 </div>
                     </form>
 
-            <input type=button class="creador" value="Creadores" onClick="mi_alerta()">
+               <a href="index.html" class="btn" onClick="mi_alerta()" >Home</a>
+            
         </div>
     </div>
     
+    <button ></button>
     <script src="app.js"></script>
     
             <SCRIPT LANGUAGE="JavaScript">
         function mi_alerta () {
-        alert ("Tutoriales"+
+        alert ("Inteligencia artificial"+
                "\n"+
-               "\nCaleb & Mr. Luna");
+               "\nEquipo de asesorIA");
         }
         </SCRIPT>
         
